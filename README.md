@@ -49,10 +49,7 @@ Example:
             "icon": "theaters"
         }]
     }]}'
-    actions='[{
-        "label": "Play",
-        "event": "play"
-    }]'>
+    chkbxactions = true'>
  </paper-tree-checkbox>
 ```
 
