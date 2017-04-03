@@ -11,13 +11,13 @@ Example:
 @demo
 -->
 
-<link rel="import" href="paper-tree-node.html">
+<link rel="import" href="paper-tree-node-checkbox.html">
 
 <dom-module id="paper-tree-checkbox">
 
     <template>
         <div>
-            <paper-tree-node id="root" data="[[data]]" actions="[[actions]]" chkbxactions="[[chkbxactions]]"></paper-tree-node>
+            <paper-tree-node-checkbox id="root" data="[[data]]" actions="[[actions]]" chkbxactions="[[chkbxactions]]"></paper-tree-node-checkbox>
         </div>
     </template>
 
@@ -113,7 +113,7 @@ Example:
             }
 
             // Only selects `<paper-tree-node>`.
-            if (e.detail && e.detail.tagName === 'PAPER-TREE-NODE') {
+            if (e.detail && e.detail.tagName === 'PAPER-TREE-NODE-CHECKBOX') {
                 this.selected = e.detail;
                 this.toggleClass("selected", true, this.selected);
             } else {
