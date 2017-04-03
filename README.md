@@ -72,7 +72,7 @@ polymer serve -o
 Add a `<paper-tree-checkbox>` element to your page and set the `data` attribute:
 
 ```
-<paper-tree data='{"name": "root"}'><paper-tree>
+<paper-tree-checkbox data='{"name": "root"}'><paper-tree-checkbox>
 ```
 
 See documentation to know the options and structure of the `data` attribute.
