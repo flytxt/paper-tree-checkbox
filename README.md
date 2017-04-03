@@ -1,4 +1,4 @@
-# \<paper-tree\>
+# \<paper-tree-checkbox\>
 
 [![Published on webcomponents.org](https://img.shields.io/badge/webcomponents.org-published-blue.svg?style=flat-square)](https://beta.webcomponents.org/element/vpusher/paper-tree)
 

@@ -13,7 +13,7 @@
   ],
   "homepage": "https://github.com/vpusher/paper-tree",
   "authors": [
-    "Florian Maffini <florian.maffini@free.fr>"
+    "SankaraNarayanan <sankarbaluz@gmail.com>"
   ],
   "dependencies": {
     "polymer": "Polymer/polymer#^1.7.0",
